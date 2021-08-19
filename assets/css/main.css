@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 /*
 	Twenty by HTML5 UP
@@ -2248,7 +2249,7 @@ input, select, textarea {
 				}
 
 		.wrapper.style3 {
-			background: #fff;
+			/* background: #fff; */
 			color: inherit;
 		}
 
@@ -2527,10 +2528,10 @@ input, select, textarea {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/river-bg.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		/* background-size: 25em, 25em, auto, cover; */
 		color: #fff;
 		cursor: default;
 		padding: 6em 0;
@@ -2625,10 +2626,10 @@ input, select, textarea {
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/river-bg.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		/* background-size: 25em, 25em, auto, cover; */
 		color: #fff;
 		padding: 5em;
 		text-align: center;
@@ -2643,7 +2644,7 @@ input, select, textarea {
 	#footer {
 		background: #E8EEF4;
 		color: #7c8081;
-		padding: 5em 5em 10em 5em;
+		padding: 3em 5em 3em 5em;
 		text-align: center;
 	}
 

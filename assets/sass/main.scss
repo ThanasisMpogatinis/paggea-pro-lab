@@ -477,21 +477,30 @@ $pattern-background-size: 25em;
 				top: -0.2em;
 			}
 
-			&.fa-twitter {
-				background: _palette(twitter, bg);
-				color: _palette(twitter, fg);
-
-				&:hover {
-					background: lighten(_palette(twitter, bg), 4);
-				}
-			}
-
 			&.fa-facebook-f {
 				background: _palette(facebook, bg);
 				color: _palette(facebook, fg);
 
 				&:hover {
 					background: lighten(_palette(facebook, bg), 4);
+				}
+			}
+
+			// &.fa-instagram {
+			// 	background: _palette(instagram, bg);
+			// 	color: _palette(instagram, fg);
+
+			// 	&:hover {
+			// 		background: lighten(_palette(instagram, bg), 4);
+			// 	}
+			// }
+
+			&.fa-twitter {
+				background: _palette(twitter, bg);
+				color: _palette(twitter, fg);
+
+				&:hover {
+					background: lighten(_palette(twitter, bg), 4);
 				}
 			}
 
