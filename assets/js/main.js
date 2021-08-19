@@ -93,4 +93,5 @@
 
 		}
 
+console.log("Check this out!! https://html5up.net/");
 })(jQuery);
